@@ -1,0 +1,12 @@
+[TRIM Context Reference]
+Client=0
+ClientName=*****
+DB=HF
+DBName=*****
+Type=6
+TypeName=Record
+Items=1
+[Item1]
+URI=598692
+Details=D2016/40369
+Extra=Development Team Training Schedule

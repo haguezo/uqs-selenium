@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>Uqs.Test.E2E</Name>
+    <RootNamespace>Uqs.Test.E2E</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <NodeExePath>C:\Users\bindizo\AppData\Roaming\npm\protractor.cmd</NodeExePath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4976c890-74ea-4b90-a681-c59e1aba5812</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>conf.js</StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <ProjectView>ProjectFiles</ProjectView>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <EnableTypeScript>true</EnableTypeScript>
+    <StartWebBrowser>False</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="UploadFiles\Doc test.doc" />
+    <Content Include="UploadFiles\Doc test.pdf" />
+    <Content Include="UploadFiles\Docx test.docx" />
+    <Content Include="UploadFiles\gif.gif" />
+    <Content Include="UploadFiles\jpg.JPG" />
+    <Content Include="UploadFiles\Macro enabled workbook test.xlsm" />
+    <Content Include="UploadFiles\Ods test.ods" />
+    <Content Include="UploadFiles\Odt test.odt" />
+    <Content Include="UploadFiles\test10.txt" />
+    <Content Include="UploadFiles\test11.txt" />
+    <Content Include="UploadFiles\test9.txt" />
+    <Content Include="UploadFiles\tr5 test.tr5" />
+    <Content Include="UploadFiles\xls test.xls" />
+    <Content Include="UploadFiles\xlsx test.xlsx" />
+    <TypeScriptCompile Include="conf.ts" />
+    <TypeScriptCompile Include="Data\EnquiryCompleter.ts" />
+    <TypeScriptCompile Include="Helpers\BaseWorkFlowHelper.ts" />
+    <TypeScriptCompile Include="Helpers\WorkFlowHelper.ts" />
+    <TypeScriptCompile Include="Pages\BasePage.ts" />
+    <TypeScriptCompile Include="Pages\CheckYourAnswersPage.ts" />
+    <TypeScriptCompile Include="Pages\CourseDetailsPage.ts" />
+    <TypeScriptCompile Include="Pages\EmployeeDetailsPage.ts" />
+    <TypeScriptCompile Include="Pages\OtherDetailsPage.ts" />
+    <TypeScriptCompile Include="Pages\ProviderSearchDropDown.ts" />
+    <TypeScriptCompile Include="Pages\UploadPage.ts" />
+    <TypeScriptCompile Include="Pages\ThankYouPage.ts" />
+    <TypeScriptCompile Include="Pages\YourConcernPage.ts" />
+    <TypeScriptCompile Include="Pages\YourDetailsPage.ts" />
+    <TypeScriptCompile Include="Scripts\typings\angular-protractor\angular-protractor.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jasmine\jasmine.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\node\node.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\selenium-webdriver\selenium-webdriver.d.ts" />
+    <TypeScriptCompile Include="Specs\Bugs\Bug3359Spec.ts" />
+    <TypeScriptCompile Include="Specs\Bugs\Bug3358Spec.ts" />
+    <TypeScriptCompile Include="Specs\Bugs\Bug3349Spec.ts" />
+    <TypeScriptCompile Include="Specs\Bugs\Bug4231Spec.ts" />
+    <TypeScriptCompile Include="Data\EnquiryPopulation.ts" />
+    <TypeScriptCompile Include="Specs\Bugs\Bug4321Spec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\MoreToggleSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\ProgressBarSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\ThankYouSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\CourseDetailsSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\EmployeeDetailsSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\OtherDetailsSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\ProviderSearchSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\UploadSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\CheckYourAnswersSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\YourConcernSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\SmokeTests\YourDetailsSmokeSpec.ts" />
+    <TypeScriptCompile Include="Specs\Validation\UploadValidationSpec.ts" />
+    <TypeScriptCompile Include="Specs\Validation\YourConcernValidationSpec.ts" />
+    <TypeScriptCompile Include="Specs\Validation\OtherDetailsValidationSpec.ts" />
+    <TypeScriptCompile Include="Specs\Validation\EmployeeDetailsValidationSpec.ts" />
+    <TypeScriptCompile Include="Specs\Validation\ProviderSearchValidationSpec.ts" />
+    <TypeScriptCompile Include="Specs\Validation\CourseDetailsValidationSpec.ts" />
+    <TypeScriptCompile Include="Specs\Validation\YourDetailsValidationSpec.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Drivers\" />
+    <Folder Include="UploadFiles\" />
+    <Folder Include="Pages\" />
+    <Folder Include="Specs\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="Scripts\typings\" />
+    <Folder Include="Scripts\typings\angular-protractor\" />
+    <Folder Include="Scripts\typings\jasmine\" />
+    <Folder Include="Scripts\typings\selenium-webdriver\" />
+    <Folder Include="Scripts\typings\node\" />
+    <Folder Include="Specs\Bugs\" />
+    <Folder Include="Specs\Validation\" />
+    <Folder Include="Specs\SmokeTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\EnquiryData.js" />
+    <Compile Include="Data\ValidationData.js" />
+    <Compile Include="Data\TestData.js" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
